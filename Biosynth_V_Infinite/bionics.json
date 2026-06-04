@@ -5,27 +5,8 @@
     "name": { "str": "Android Toolkit"},
     "description": "Toggleable internal tool matrix that exposes actions and qualities without occupying your hands.",
     "occupied_bodyparts": [ [ "torso", 6 ] ],
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_TOOLS", "INITIALLY_ACTIVATE", "BIONIC_SHOCKPROOF" ],
-    "fake_item": "android_toolkit_active_item",
-    "included_bionics": [
-      "bio_android_toolset_extended"
-    ]
-  },
-  {
-    "type": "bionic",
-    "id": "bio_android_toolset_extended",
-    "name": {
-      "str": "Android Toolkit (Extended)"
-    },
-    "description": "Forces a projected hard-light / electromagnetic tool into your hands. Behaves like equipment; activate to extend or retract it.",
-    "flags": [
-      "BIONIC_TOGGLED",
-      "BIONIC_WEAPON",
-      "BIONIC_TOOLS",
-	  "BIONIC_SHOCKPROOF"
-    ],
-    "fake_item": "android_toolkit_active_item",
-    "included": true
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_TOOLS", "INITIALLY_ACTIVATE" ],
+    "fake_item": "android_toolkit_active_item"
   },
   {
     "type": "bionic",
@@ -42,8 +23,7 @@
     "time": 1,
     "flags": [
       "BIONIC_POWER_SOURCE",
-      "BIONIC_TOGGLED",
-	  "BIONIC_SHOCKPROOF"
+      "BIONIC_TOGGLED"
     ]
   },
   {
@@ -102,7 +82,7 @@
     },
     "description": "A cosmetic articulated fox tail mounted to the lower torso. Mostly decorative, but the support frame gives a small amount of rear torso protection.",
     "occupied_bodyparts": [ [ "torso", 1 ] ],
-    "flags": [ "BIONIC_SHOCKPROOF" ],
+    "flags": [ ],
     "act_cost": "0 kJ",
     "deact_cost": "0 kJ",
     "react_cost": "0 kJ",
