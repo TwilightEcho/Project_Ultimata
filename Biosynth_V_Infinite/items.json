@@ -15,10 +15,7 @@
     "max_charges": 10000,
     "charges_per_use": 1,
     "use_action": [
-      {
-        "type": "firestarter",
-        "moves": 20
-      },
+      { "type": "firestarter", "moves": 20 },
       "CROWBAR",
       "OXYTORCH",
       {
@@ -82,214 +79,58 @@
       }
     ],
     "qualities": [
-      [
-        "CUT",
-        3
-      ],
-      [
-        "HAMMER",
-        6
-      ],
-      [
-        "SAW_M",
-        5
-      ],
-      [
-        "SAW_W",
-        5
-      ],
-      [
-        "AXE",
-        10
-      ],
-      [
-        "CHISEL",
-        6
-      ],
-      [
-        "WRENCH",
-        5
-      ],
-      [
-        "SCREW",
-        4
-      ],
-      [
-        "PRY",
-        6
-      ],
-      [
-        "DRILL",
-        6
-      ],
-      [
-        "HAMMER_FINE",
-        4
-      ],
-      [
-        "SAW_M_FINE",
-        4
-      ],
-      [
-        "WRENCH_FINE",
-        4
-      ],
-      [
-        "SCREW_FINE",
-        4
-      ],
-      [
-        "BUTCHER",
-        100
-      ],
-      [
-        "FILE",
-        5
-      ],
-      [
-        "REAM",
-        4
-      ],
-      [
-        "VISE",
-        4
-      ],
-      [
-        "CUT_FINE",
-        5
-      ],
-      [
-        "DIG",
-        20
-      ],
-      [
-        "SEW",
-        4
-      ],
-      [
-        "SEW_CURVED",
-        2
-      ],
-      [
-        "KNIT",
-        2
-      ],
-      [
-        "LEATHER_AWL",
-        3
-      ],
-      [
-        "COOK",
-        4
-      ],
-      [
-        "DISTILL",
-        4
-      ],
-      [
-        "CHEM",
-        4
-      ],
-      [
-        "BOIL",
-        4
-      ],
-      [
-        "CHURN",
-        3
-      ],
-      [
-        "SHEAR",
-        3
-      ],
-      [
-        "SMOOTH",
-        3
-      ],
-      [
-        "PULL",
-        3
-      ],
-      [
-        "ANVIL",
-        4
-      ],
-      [
-        "LOCKPICK",
-        100
-      ],
-      [
-        "GRIND",
-        4
-      ],
-      [
-        "PRESSURIZATION",
-        4
-      ],
-      [
-        "HOSE",
-        3
-      ],
-      [
-        "LIFT",
-        800
-      ],
-      [
-        "JACK",
-        800
-      ],
-      [
-        "SMOKE_PIPE",
-        1
-      ],
-      [
-        "FISHING",
-        10
-      ],
-      [
-        "GLARE",
-        10
-      ],
-      [
-        "ANALYSIS",
-        3
-      ],
-      [
-        "CONCENTRATE",
-        3
-      ],
-      [
-        "SEPARATE",
-        3
-      ],
-      [
-        "FINE_DISTILL",
-        3
-      ],
-      [
-        "CHROMATOGRAPHY",
-        3
-      ],
-      [
-        "EXTRACT",
-        3
-      ],
-      [
-        "FILTER",
-        3
-      ],
-      [
-        "WELD",
-        5
-      ],
-      [
-        "CUT_M",
-        5
-      ],
-      [
-        "PULL_FINE",
-        5
-      ]
+      [ "CUT", 3 ],
+      [ "HAMMER", 6 ],
+      [ "SAW_M", 5 ],
+      [ "SAW_W", 5 ],
+      [ "AXE", 10 ],
+      [ "CHISEL", 6 ],
+      [ "WRENCH", 5 ],
+      [ "SCREW", 4 ],
+      [ "PRY", 6 ],
+      [ "DRILL", 6 ],
+      [ "HAMMER_FINE", 4 ],
+      [ "SAW_M_FINE", 4 ],
+      [ "WRENCH_FINE", 4 ],
+      [ "SCREW_FINE", 4 ],
+      [ "BUTCHER", 100 ],
+      [ "FILE", 5 ],
+      [ "REAM", 4 ],
+      [ "VISE", 4 ],
+      [ "CUT_FINE", 5 ],
+      [ "DIG", 20 ],
+      [ "SEW", 4 ],
+      [ "SEW_CURVED", 2 ],
+      [ "KNIT", 2 ],
+      [ "LEATHER_AWL", 3 ],
+      [ "COOK", 4 ],
+      [ "DISTILL", 4 ],
+      [ "CHEM", 4 ],
+      [ "BOIL", 4 ],
+      [ "CHURN", 3 ],
+      [ "SHEAR", 3 ],
+      [ "SMOOTH", 3 ],
+      [ "PULL", 3 ],
+      [ "ANVIL", 4 ],
+      [ "LOCKPICK", 100 ],
+      [ "GRIND", 4 ],
+      [ "PRESSURIZATION", 4 ],
+      [ "HOSE", 3 ],
+      [ "LIFT", 800 ],
+      [ "JACK", 800 ],
+      [ "SMOKE_PIPE", 1 ],
+      [ "FISHING", 10 ],
+      [ "GLARE", 10 ],
+      [ "ANALYSIS", 3 ],
+      [ "CONCENTRATE", 3 ],
+      [ "SEPARATE", 3 ],
+      [ "FINE_DISTILL", 3 ],
+      [ "CHROMATOGRAPHY", 3 ],
+      [ "EXTRACT", 3 ],
+      [ "FILTER", 3 ],
+      [ "WELD", 5 ],
+      [ "CUT_M", 5 ],
+      [ "PULL_FINE", 5 ]
     ],
     "flags": [
       "NO_DROP",
