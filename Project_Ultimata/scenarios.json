@@ -4,7 +4,7 @@
     "id": "fvi_bionic_scenario",
     "name": "Unkind Android",
     "points": 15,
-    "description": "You were humanity's last resort. Stationed in a city to be deployed when needed. The order never came.",
+    "description": "You were meant to be humanity's last bastion. The ultimate weapon, held in reserve for a final effort to reclaim the world. That day never came. Instead, you awoke to silence, remotely activated by a deadman switch after two weeks without an all-clear signal. Whatever happened outside, there was nobody left to give the order.",
 	"flags": [ "CITY_START", "LONE_START" ],
     "allowed_locs": [ "sloc_basement_bionic" ],
     "professions": [ "fox_android" ],
@@ -34,9 +34,6 @@
       "bio_quantum_reactor",
       "bio_fox_ears_cbm",
       "bio_fox_tail_cbm",
-	  "bio_reactor",
-      "bio_metabolics",
-      "bio_ethanol",
       "bio_ups",
       "bio_targeting",
       "bio_geiger",
@@ -48,7 +45,10 @@
 	  "bio_carbon",
 	  "bio_eye_enhancer",
       "bio_climate",
-      "bio_evap"
+      "bio_evap",
+	  "bio_tools",
+	  "bio_leukocyte",
+	  "bio_purifier"
     ],
     "items": {
       "both": {
